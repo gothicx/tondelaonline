@@ -9,8 +9,8 @@ class MainController < ApplicationController
 #    service.enable_cache
 #    service.cache_expiry = 1200
 #    service.cache.servers = ['127.0.0.1:11211']
-#    service.partner_id = "1102805640"
-#    service.license_key = "e3b347cf71fbaa7f"
+#    service.partner_id = ""
+#    service.license_key = ""
 #    forecast = service.fetch_forecast("POXX0080")
 #    $w_temp = forecast.current.temperature.nil? ? "N/D" : forecast.current.temperature
 #    $w_img = forecast.current.icon
