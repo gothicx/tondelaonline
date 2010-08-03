@@ -1,0 +1,19 @@
+<%= link_to image_tag("sites.jpg", :alt => "", :border => 0), "http://www.marblehole.com", :target => "_blank" %>
+<br />
+<% for item in @feeds.items[0..5] %>
+    <h1 class="posthead">
+    <%= image_tag "bluebox.png", :alt => "" %>
+    <%= if item.title.length > 55
+            link_to(item.title.slice(0, 55) + "...", item.link, :popup => true)
+	else
+            link_to(item.title, item.link, :popup => true)
+        end 
+    %>
+    </h1>
+    <div class="postsubhead">
+    Publicado em <%=h item.published.to_date %>
+    </div>
+    <div class="postcontent">
+    <%= item.content if not item.content.blank? %>
+    </div><br />
+<% end %>

@@ -1,0 +1,6 @@
+--- 
+  :address: smtp.gmail.com
+  :port: 587
+  :user_name: tonline@tondela.org
+  :password: t0nl1n3
+  :authentication: :plain

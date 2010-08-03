@@ -1,0 +1,52 @@
+10
+
+dir
+1
+svn+ssh://kmos@svn.tondela.org/home/kmos/svn/tondela/vendor/plugins/feedtools-0.2.29/lib/feed_tools/vendor/html5/testdata
+svn+ssh://kmos@svn.tondela.org/home/kmos/svn/tondela
+
+
+
+2010-05-26T16:29:39.500090Z
+1
+gothicx
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18345aca-227a-41a6-b64f-8fd372801819
+
+validator
+dir
+
+encoding
+dir
+
+sites
+dir
+
+tree-construction
+dir
+
+sanitizer
+dir
+
+serializer
+dir
+
+tokenizer
+dir
+
+sniffer
+dir
+

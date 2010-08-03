@@ -1,0 +1,26 @@
+<br /><div align="center"><h1>.: Contactos :.</h1></div><br />
+<div align="center">Envie-nos a sua mensagem através deste formulário...</div><br />
+
+<div class="error_msg" align="center">
+<% if flash[:error] %>
+    <%= flash[:error]%><br /><br />
+<% end %>
+</div>
+
+<div align="center">
+<% form_tag :action => "contactos" do %>
+    <p><label for="nome">Nome:</label><br />
+    <%= text_field :email, :nome, :size => 25, :class => "input-box" %>
+    <p><label for="email">E-Mail:</label><br />
+    <%= text_field :email, :email, :size => 25, :class => "input-box" %>
+    <p><label for="mensagem">Mensagem:</label><br />
+    <%= text_area :email, :mensagem, :cols => 25, :rows => 6, :class => "input-box" %><br /><br />
+    <%= submit_tag "Enviar", :class => "button" %>
+<% end %>
+</div>
+
+<div class="valid_msg" align="center">
+<% if flash[:notice] %>
+    <br /><%= flash[:notice]%>
+<% end %>
+</div>
