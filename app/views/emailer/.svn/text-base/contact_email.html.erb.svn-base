@@ -1,5 +1,0 @@
-Nome: <%= @email_nome %>
-E-Mail: <%= @email_email %>
-
-Mensagem:
-<%= @email_mensagem %>

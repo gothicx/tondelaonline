@@ -1,5 +1,0 @@
-(in /home/kmos/rails/tondela)
-rake aborted!
-no such file to load -- builder
-/home/kmos/rails/tondela/Rakefile:10
-(See full trace by running task with --trace)
